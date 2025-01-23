@@ -1,0 +1,84 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(200deg, #4facfe 0%, #37cccc 100%);
+  color: #00ffff;
+  text-shadow: 2px 2px 4px rgba(202, 22, 22, 0.3);
+  
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background: linear-gradient(120deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.2));
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  margin-top: -20px;
+  color: #37cccc;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  padding-top: 0px;
+}
+
+/* InfoBox.css */
+.flexs {
+  display: grid;
+  grid-template-rows: repeat(6, auto);
+  row-gap: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #00ffff;
+  text-shadow: 2px 2px 4px rgba(202, 22, 22, 0.3);
+}
+
+/* SearchBox.css */
+.SearchBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.SearchBox form {
+  width: 100%;
+  background: linear-gradient(120deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.2));
+}
+
+.SearchBox input,
+.SearchBox button {
+  margin-top: 8px;
+}
+
+.SearchBox button {
+  background: linear-gradient(to right, #37cccc, #4facfe);
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  margin: 0;
+}
